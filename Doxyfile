@@ -1,0 +1,33 @@
+# Project related configuration options
+PROJECT_NAME           = "Python Play"
+PROJECT_NUMBER         =
+PROJECT_BRIEF          = "Play C extensions for Python"
+OUTPUT_DIRECTORY       = doc
+
+# Overall config
+# OPTIMIZE_OUTPUT_FOR_C  = YES
+PREDEFINED             = DEBUG=1
+JAVADOC_AUTOBRIEF      = YES
+INLINE_SIMPLE_STRUCTS  = YES
+TYPEDEF_HIDES_STRUCT   = YES
+
+# Build related configuration options
+EXTRACT_ALL            = NO
+EXTRACT_STATIC         = YES
+SHOW_USED_FILES        = NO
+
+# Input files
+INPUT                  = spammodule.c bigram.c setup.py test.py markov.py README.md
+USE_MDFILE_AS_MAINPAGE = README.md
+
+# Source browsing
+SOURCE_BROWSER         = NO
+INLINE_SOURCES         = NO
+ALPHABETICAL_INDEX     = NO
+
+# HTML output
+HTML_TIMESTAMP         = NO
+SEARCHENGINE           = NO
+
+# LaTeX output
+GENERATE_LATEX         = NO
